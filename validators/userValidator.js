@@ -18,7 +18,7 @@ exports.signupValidator = [
         .normalizeEmail(),
     check('password')
         .isLength({ min: 6 }).withMessage('Password must be at least 6 chars long')
-        .matches(/\d/).withMessage('Password must contain a number'),
+        .matches(/\d/).withMessage('Password must contain a number')
 
 ];
 
@@ -28,5 +28,5 @@ exports.signinValidator = [
         .normalizeEmail(),
     check('password')
         .isLength({ min: 6 }).withMessage('Password must be at least 6 chars long')
-        .matches(/\d/).withMessage('Password must contain a number'),
+        .matches(/\d/).withMessage('Password must contain a number')
 ];

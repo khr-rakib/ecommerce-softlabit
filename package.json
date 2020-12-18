@@ -18,9 +18,11 @@
     "express-validator": "^6.8.0",
     "formidable": "^1.2.2",
     "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
     "mongoose": "^5.11.7",
     "morgan": "^1.10.0",
-    "shortid": "^2.2.16"
+    "shortid": "^2.2.16",
+    "slugify": "^1.4.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"

@@ -9,6 +9,7 @@ require('dotenv').config();
 
 // import routes
 const userRoutes = require('./routes/userRoute');
+const productRoutes = require('./routes/productRoute');
 
 
 // app
@@ -24,6 +25,7 @@ app.use(bodyParser.json());
 
 // route
 app.use('/api', userRoutes);
+app.use('/api', productRoutes);
 
 app.use('/', (req, res) => res.json({ msg: "Hello World" }));
 
